@@ -2,6 +2,10 @@
 # PCA of 12A and ETI #
 ######################
 
+# 12A is a wildtype neuronal sample and the ETI samples are a time series that have been genetically manipulated
+# noe is the name of a gene that was an outlier that otherwise completely dominated the PCA and was removed by name
+# The row names of the AllFPKMs2 dataframe are the flybase genesymbols
+
 # PCA Analysis in R:
 # Added 0.0001 to all values before running PCA
 # Read in data and find principle components
