@@ -8,7 +8,7 @@
 
 # PCA Analysis in R:
 # Added 0.0001 to all values before running PCA
-# Read in data and find principle components
+# Read in data and find principal components
 # Make sure not to have spaces in the column titles and to leave the top left cell blank
 x <- AllFPKMs2[c("Hemi.12A","ETI.120hr","ETI.240hr","ETI.360hr","ETI.576hr")]
 colnames(x)<- c("WT 120hr","ETI 120hr","ETI 240hr", "ETI 360hr", "ETI 576hr")
